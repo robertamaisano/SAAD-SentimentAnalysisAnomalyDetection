@@ -25,7 +25,7 @@ Contents:
 
 * `SentimentModel` folder contains a Python notebook with the Sentiment Model prediction on collected data and the subfolder `Grouping`to group sentiment prediction data by hour
   
-* `AnomalyDetection` folder contains two Python notebook one with DBSCAN clustering and the second one with LSTM-AE model
+* `AnomalyDetection` folder contains two Python notebook one with DBSCAN clustering and the second one with LSTM-AE model with the predicted anomalies together with the evaluation metrics through RangeBasedConfusionMatrix class for unbalanced Dataset
   
 * `Dataset` folder contains data extarcted from Sahel Region from 1-Jun-2020 to 31-Aug-2020 translated in English language and the folder 'English_contractions' with the english contractions dataset used in Preprocessing.
   
