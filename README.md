@@ -1,4 +1,4 @@
-# Sentiment-Analysis-Anomaly-Detection
+# SAD-SentimentAnomalyDetection
 Anomaly Detection with Sentiment Analysis on Twitter Data ad evaluation metrics
 
 Contents:
