@@ -23,3 +23,5 @@ Contents:
   
     7.**Removing Non-Alphabets**: Replacing characters except Digits, Alphabets and pre-defined Symbols with a space.
 
+* `SentimentModel` folder contains a Python notebook with the Sentiment Model prediction on collected data and the subfolder `Grouping`to group sentiment prediction data by hour
+  
