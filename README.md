@@ -25,3 +25,4 @@ Contents:
 
 * `SentimentModel` folder contains a Python notebook with the Sentiment Model prediction on collected data and the subfolder `Grouping`to group sentiment prediction data by hour
   
+* `AnomalyDetection` folder contains two Python notebook one with DBSCAN clustering and the second one with LSTM-AE model
