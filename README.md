@@ -31,3 +31,27 @@ Contents:
   
 Sentiment140 dataset can be downloaded from http://cs.stanford.edu/people/alecmgo/trainingandtestdata.zip
 
+## Dataset
+  
+  Dataset used is contained into folder `Dataset`, if you want to use different Dataset you can collect tweets through Twint python project:
+  
+  for Example:
+  ```
+  import twint
+  import nest_asyncio
+  import pandas as pd
+
+  nest_asyncio.apply()
+  c = twint.Config()
+  c.Since = 'start_date'
+  c.Until = 'end_date'
+  c.Hide_output = False
+  c.Geo = 'Latitude, Longitude, range_in_km'
+  c.Store_csv = True
+  c.Output = 'file_to_save.csv'
+  import pandas as pd
+  c.Pandas = True
+  twint.run.Search(c)
+  ```
+  
+  
