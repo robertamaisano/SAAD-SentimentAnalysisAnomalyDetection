@@ -54,4 +54,11 @@ Sentiment140 dataset can be downloaded from http://cs.stanford.edu/people/alecmg
   twint.run.Search(c)
   ```
   
+  ### Data Translation
   
+  In order to translate in English language collected tweets:
+  ```
+  from google_trans_new import google_translator
+  for i in range(len(df)): 
+    df['tweet'][i]=translator.translate(df['tweet'][i])
+  ```
